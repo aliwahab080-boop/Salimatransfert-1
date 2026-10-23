@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salima Transfert - Pour tous vos transactions</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f5f7fb;color:#222}
+.header{background:linear-gradient(135deg,#0b8a3e,#0a5c2a);color:white;padding:28px 20px;text-align:center}
+.header h1{font-size:34px}
+.header p{margin-top:8px;font-size:17px}
+.container{max-width:900px;margin:0 auto;padding:20px}
+.card{background:white;border-radius:16px;padding:22px;margin:18px 0;box-shadow:0 4px 18px rgba(0,0,0,0.08)}
+.card h2{color:#0b8a3e;margin-bottom:12px}
+.services{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.service{background:#f0faf3;border:1px solid #c8e9d3;border-radius:12px;padding:14px;text-align:center}
+.service span{font-size:28px;display:block}
+.btn{display:block;background:#25D366;color:white;text-align:center;padding:16px;border-radius:12px;text-decoration:none;font-weight:bold;font-size:18px;margin:15px 0}
+.btn2{background:#0b8a3e}
+.footer{background:#111;color:#bbb;text-align:center;padding:18px;font-size:13px;margin-top:20px}
+.badge{display:inline-block;background:#ffcc00;color:#111;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:bold;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>Salima Transfert</h1>
+<p>Pour tous vos transactions</p>
+<div class="badge">Rapide • Sécurisé • Niamey</div>
+</div>
+<div class="container">
+<div class="card">
+<h2>💸 Nos Services</h2>
+<div class="services">
+<div class="service"><span>📱</span><b>Mobile Money</b><br>Orange, Moov, Airtel</div>
+<div class="service"><span>🌍</span><b>Transfert International</b><br>Western, MoneyGram</div>
+<div class="service"><span>💳</span><b>Dépôt & Retrait</b><br>Tous réseaux</div>
+<div class="service"><span>⚡</span><b>Paiement Factures</b><br>NIGELEC, SEEN</div>
+</div>
+</div>
+<div class="card">
+<h2>📍 Contactez Abdoulwahab</h2>
+<p><b>📞 WhatsApp:</b> +227 99 96 37 77</p>
+<p><b>🏠 Adresse:</b> Niamey, Niger</p>
+<p><b>🕐 Horaires:</b> 7h30 - 22h00 Tous les jours</p>
+<a class="btn" href="https://wa.me/22799963777">💬 WhatsApp Direct - Cliquez Ici</a>
+<a class="btn btn2" href="tel:+22799963777">📞 Appeler Maintenant</a>
+</div>
+<div class="card">
+<h2>⭐ Pourquoi Salima Transfert?</h2>
+<p>✅ Rapide et fiable</p>
+<p>✅ Taux avantageux</p>
+<p>✅ Service par Abdoulwahab</p>
+<p>✅ Confidentialité garantie</p>
+</div>
+</div>
+<div class="footer">
+© 2026 Salima Transfert - Abdoulwahab - Niamey<br>
++22799963777
+</div>
+</body>
+</html>
