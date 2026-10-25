@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Salima Transfert - Pi Network Niger</title>
+<script src="https://sdk.minepi.com/pi-sdk.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:#f2f3f8}
+.top{background:#4b1f8a;color:#fff;padding:10px;text-align:center;font-size:12px;font-weight:bold}
+.head{background:#fff;padding:28px 18px;text-align:center;border-bottom:5px solid #4b1f8a}
+.head img{width:135px;height:135px;border-radius:24px;object-fit:cover}
+.head h1{color:#4b1f8a;font-size:32px;margin-top:12px}
+.head p{color:#555;margin-top:6px;line-height:19px;font-size:14px}
+.grid{max-width:920px;margin:14px auto;display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px}
+.card{background:#fff;border-radius:20px;padding:18px 10px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.07);border-left:6px solid #4b1f8a;min-height:110px}
+.card b{display:block;margin-top:6px}
+.card span{font-size:11px;color:#777}
+.btn{max-width:920px;margin:10px auto;display:block;background:#25D366;color:#fff;padding:16px;border-radius:14px;text-align:center;text-decoration:none;font-weight:bold}
+.btn2{background:#4b1f8a}
+.btn-pi{background:#ff9800;color:#000}
+.foot{background:#0f0f0f;color:#aaa;text-align:center;padding:18px;font-size:11px}
+</style>
+</head>
+<body>
+<div class="top">📍 Salima Transfert - Niamey - 99 96 37 77 - PiNet: salimatransferta6595.pinet.com</div>
+
+<div class="head">
+<img src="IMG-20261024-WA5079.jpg" onerror="this.style.display='none'">
+<h1>Salima Transfert</h1>
+<p>Pour tous vos transactions - Abdoulwahab<br>
+<b>Pi Network → XOF Instantané</b><br>
+<span id="pi-user">salimatransferta6595.pinet.com ✅</span></p>
+</div>
+
+<div class="grid">
+<div class="card" style="border-color:#6a1b9a">💜<b>NITA</b><br><span>National & International</span></div>
+<div class="card" style="border-color:#1565c0">💙<b>AMANA</b><br><span>Transfert Rapide</span></div>
+<div class="card" style="border-color:#e53935">📱<b>AIRTEL MONEY</b><br><span>Dépôt / Retrait</span></div>
+<div class="card" style="border-color:#ef6c00">📲<b>MOOV</b><br><span>Moov Money</span></div>
+<div class="card" style="border-color:#2e7d32">📞<b>ZAMANI</b><br><span>Niger Telecom</span></div>
+<div class="card" style="border-color:#f9a825">⚡<b>NIGELEC</b><br><span>Électricité</span></div>
+<div class="card" style="border-color:#00838f">💧<b>NDE</b><br><span>Eau SEEN</span></div>
+<div class="card" style="border-color:#4b1f8a">🪙<b>Pi Network</b><br><span>Pi → XOF</span></div>
+</div>
+
+<a class="btn btn-pi" href="#" onclick="piAuth()">🪙 Se connecter avec Pi</a>
+<a class="btn" href="https://wa.me/22799963777">💬 WhatsApp: 99 96 37 77</a>
+<a class="btn btn2" href="tel:+22799963777">📞 Appeler Abdoulwahab</a>
+
+<div class="foot">
+© 2026 Salima Transfert - Niamey<br>
+<b>PiNet: https://salimatransferta6595.pinet.com</b><br>
+GitHub: aliwahab080-boop.github.io/Salimatransfert-1/<br>
+99 96 37 77 - Abdoulwahab
+</div>
+
+<script>
+Pi&&Pi.init({version:"2.0"});
+function piAuth(){
+ if(!window.Pi){alert("Ouvre dans Pi Browser");return}
+ Pi.authenticate(['username'],function(a){
+  document.getElementById('pi-user').innerText="Bienvenue @"+a.user.username+" ✅";
+ }).catch(e=>alert(e))
+}
+</script>
+</body>
+  </html>
